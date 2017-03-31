@@ -17,6 +17,7 @@ import com.baidu.tts.client.SpeechSynthesizer;
 public class MainActivity extends AppCompatActivity {
     private EditText mInput;
     private SpeechSynthesizer mSpeechSynthesizer;
+    private String name="kz";
     private static final int REQUEST_CODE = 0;
     private static final int REQUEST_CODES = 1;
     private String [] Permission={Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.READ_PHONE_STATE};
