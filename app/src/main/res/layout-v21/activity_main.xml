@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#7EBF4B"
+              tools:context=".MainActivity">
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_t_toolbar">
+        
+    </Toolbar>
+    
+    <EditText
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:hint="输入："
+        android:layout_marginTop="10dp"
+        android:id="@+id/mainactivity_et"
+        android:paddingLeft="10dp"
+        android:background="#60e727"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="puTongWoman"
+            android:layout_weight="1"
+            android:text="普通女声"
+            android:textSize="15sp"
+            android:textColor="#71A7C7"
+            android:background="#c4c4bc"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="qingGanWoman"
+            android:layout_weight="1"
+            android:text="情感女声"
+            android:textSize="15sp"
+            android:textColor="#71A7C7"
+            android:background="#c4c4bc"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="puTongMan"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#71A7C7"
+            android:text="普通男声"
+            android:background="#c4c4bc"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="qingGanMan"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#71A7C7"
+            android:text="情感男声"
+            android:background="#c4c4bc"/>
+    </LinearLayout>
+
+</LinearLayout>
